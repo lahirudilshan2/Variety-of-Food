@@ -345,4 +345,7 @@ footer {
     .social-media a{
         margin: 0px 0px;
     }
+    footer p{
+        margin: 0;
+    }
 }
