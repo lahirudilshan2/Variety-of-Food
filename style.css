@@ -103,6 +103,9 @@
     -webkit-text-stroke:1px rgb(141, 99, 40);
 
 }
+.wrapper{
+    margin: 60px 350px 10px 0px;
+}
 
 /* Meals */
 
@@ -281,6 +284,33 @@ footer {
     }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap");
+
+svg {
+	font-family: "Purple Purse", sans-serif;
+	width: 280%; height: 150%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #e0fb1a;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(248, 244, 10, 0); stroke: rgb(242, 250, 6);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(204,202,15,0); stroke:rgb(224, 252, 10); }
+	80%  {fill: rgba(204,202,15,0); stroke: rgba(242, 250, 16, 0.822); stroke-width: 3; }
+	100% {
+		fill: rgb(251, 255, 0); stroke: rgba(237, 254, 7, 0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+
+
 @media only screen and (max-width: 768px){
     .navbar ul{
         flex-wrap: wrap;
@@ -293,6 +323,12 @@ footer {
     #home{
         height: 500px;
         
+    }
+    .wrapper{
+        margin: 50px 135px 50px 0px;
+        svg text{
+            font-size: 35px;
+        }
     }
     .heading{
         font-size: 3rem;
