@@ -284,32 +284,30 @@ footer {
     }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
 
 svg {
-	font-family: "Purple Purse", sans-serif;
-	width: 280%; height: 150%;
+	font-family: "Yatra One", sans-serif;
+	width:250%; height: 150%;
 }
 svg text {
 	animation: stroke 5s infinite alternate;
 	stroke-width: 2;
-	stroke: #e0fb1a;
-	font-size: 100px;
+	stroke: #dbf41c;
+	font-size: 80px;
 }
 @keyframes stroke {
 	0%   {
-		fill: rgba(248, 244, 10, 0); stroke: rgb(242, 250, 6);
+		fill: rgba(245, 241, 26, 0); stroke: rgb(249, 234, 19);
 		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
 	}
-	70%  {fill: rgba(204,202,15,0); stroke:rgb(224, 252, 10); }
-	80%  {fill: rgba(204,202,15,0); stroke: rgba(242, 250, 16, 0.822); stroke-width: 3; }
+	70%  {fill: rgba(204,202,15,0); stroke: rgb(240, 251, 36); }
+	80%  {fill: rgba(204,202,15,0); stroke: rgba(236,179,20,1); stroke-width: 3; }
 	100% {
-		fill: rgb(251, 255, 0); stroke: rgba(237, 254, 7, 0);
+		fill: rgb(247, 243, 36); stroke: rgba(234, 252, 37, 0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-
-
 
 @media only screen and (max-width: 768px){
     .navbar ul{
